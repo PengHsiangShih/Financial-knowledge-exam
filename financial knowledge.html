@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經知識競賽</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <input type="file" id="csvFile" accept=".csv">
+    <button id="import_quiz">匯入題目</button>
+    <button id="sampling_quiz">一般競賽</button>
+    <button id="extended_sampling_quiz">延長競賽</button>
+    <button id="restart_quiz">重新開始</button>
+    <br>    
+    <button id="prior_quiz">上一題</button>
+    <button id="show_answer">顯示答案</button>
+    <button id="next_quiz">下一題</button>    
+    <br>
+    <h3 id="round_1"></h3>
+    <h3 id="question_1"></h3>
+    <h3 class="answer_1" id="0"></h3>
+    <h3 class="answer_1" id="1"></h3>
+    <h3 class="answer_1" id="2"></h3>
+    <h3 class="answer_1" id="3"></h3>
+    <br>
+    <iframe width="270" height="150" src="https://www.youtube.com/embed/FUKmyRLOlAA" title="10 Seconds Countdown Timer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+<script src="financialknowledge.js"></script>
